@@ -1,0 +1,26 @@
+.home {
+  height: 100vh;
+  width: 100vw;
+  background-color: #011929;
+  color: #e7e7e7;
+}
+.home .container {
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+button {
+  padding: 0.8rem 3rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: #f0f0f0;
+  border: none;
+  outline: none;
+}
+button:hover{
+    background: #e6e6e6;
+}
