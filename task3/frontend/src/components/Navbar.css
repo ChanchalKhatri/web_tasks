@@ -1,0 +1,46 @@
+.home,
+.about,
+.contact .container {
+  height: calc(100vh - 6.5rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  height: 6.5rem;
+  width: 100%;
+  display: flex;
+  background: #bb0243;
+  padding: 0 4rem;
+}
+.navbar .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.logo h1 {
+  color: #efefef;
+}
+
+a {
+  font-size: 1.6rem;
+  color: #000;
+  font-weight: bold;
+}
+
+.login button {
+  background: transparent;
+  color: #efefef;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  cursor: pointer;
+}
